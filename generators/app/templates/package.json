@@ -1,0 +1,18 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "<%= description %>",
+  "scripts": {
+    "test": "jest",
+    "tdd": "jest --watch"
+  },
+  "dependencies": {
+    "ioredis": "^3.1.4",
+    "restify": "^6.2.3",
+    "restify-plugins": "^1.6.0",
+    "node-laravel-style-config": "git+https://git@github.com/EcommElite/node-laravel-style-config.git"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
