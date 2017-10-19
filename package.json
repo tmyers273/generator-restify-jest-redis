@@ -13,13 +13,6 @@
     "tdd": "jest --watch"
   },
   "dependencies": {
-    "ioredis": "^3.1.4",
-    "restify": "^6.2.3",
-    "restify-plugins": "^1.6.0",
     "yeoman-generator": "^2.0.1"
-  },
-  "devDependencies": {
-    "jest": "^21.2.1",
-    "node-laravel-style-config": "git+https://git@github.com/EcommElite/node-laravel-style-config.git"
   }
 }
