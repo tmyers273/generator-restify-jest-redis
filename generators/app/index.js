@@ -82,12 +82,12 @@ module.exports = class extends Generator {
 
     copy_others() {
         this.fs.copyTpl(
-            this.templatePath('.gitignore'),
+            this.templatePath('gitignore'),
             this.destinationPath('.gitignore'),
         );
 
         this.fs.copyTpl(
-            this.templatePath('.env'),
+            this.templatePath('env'),
             this.destinationPath('.env'),
         );
     }
